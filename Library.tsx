@@ -7,7 +7,7 @@ import { formatPrice } from "@/lib/utils";
 type LibraryItem = {
   _id: string;
   quantity: number;
-  price: number;
+  price: number; 
   keysDelivered: string[];
   productId: { title: string; coverImage: string; platform: string; region: string } | null;
 };
